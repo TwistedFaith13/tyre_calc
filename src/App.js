@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 function tyre_circumference(W,P,R) {
-  return 50.8 * Math.PI * R + Math.PI * P * W / 50;
+  return 25.4 * Math.PI * R + Math.PI * P * W / 50;
 }
 
 class Header extends Component {
